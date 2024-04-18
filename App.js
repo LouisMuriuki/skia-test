@@ -13,7 +13,19 @@ import { ClipRoundedRectangle } from "./src/Group/ClipRoundedRectanglr";
 import { StarClip } from "./src/Group/ClipPath";
 import { LayerEffects } from "./src/Group/LayerEffects";
 import { FitBoxComponent } from "./src/Group/FitBoxComponent";
-
+import { PathComponent } from "./src/Shapes/Path/PathComponent";
+import { PathFillType } from "./src/Shapes/Path/PathFillType";
+import { DrawRectangle } from "./src/Shapes/PolyGon/Rectangle";
+import { RoundedRectangleComponent } from "./src/Shapes/PolyGon/RoundedRectanleComponent";
+import { DiffRectangleComponent } from "./src/Shapes/PolyGon/DiffRectangle";
+import { LineComponent } from "./src/Shapes/PolyGon/Line";
+import { PointsComponent } from "./src/Shapes/PolyGon/PointComponent";
+import { CircleComponent } from "./src/Shapes/Elipses/Circle";
+import { CustomeRoundedRectangle } from "./src/Shapes/PolyGon/CustomRoundedRectangle";
+import OvalComponent from "./src/Shapes/Elipses/OvalComponent";
+import { CoonsPatchComponent } from "./src/Shapes/CoonsPatch/CoonsPatchComponet";
+import { MakeImageComponent } from "./src/Images/MakeImageComponent";
+import { AnimatedImages } from "./src/Images/AnimatedImages";
 
 export default function App() {
   return (
@@ -23,12 +35,25 @@ export default function App() {
       {/* <LinearGradientComponent/> */}
       {/* <Inheritance/> */}
       {/* <SunComponent/> */}
-      <SimpleTransformation />
+      {/* <SimpleTransformation /> */}
       {/* <Clipping/> */}
       {/* <ClipRoundedRectangle/> */}
       {/* <StarClip/> */}
       {/* <LayerEffects/> */}
       {/* <FitBoxComponent/> */}
+      {/* <PathComponent/> */}
+      {/* <PathFillType/> */}
+      {/* <DrawRectangle/> */}
+      {/* <RoundedRectangleComponent/> */}
+      {/* <CustomeRoundedRectangle /> */}
+      {/* <DiffRectangleComponent/> */}
+      {/* <LineComponent/> */}
+      {/* <PointsComponent/> */}
+      {/* <OvalComponent/> */}
+      {/* <CoonsPatchComponent/> */}
+      {/* <CircleComponent/> */}
+      {/* <MakeImageComponent/> */}
+      <AnimatedImages/>
     </View>
   );
 }
