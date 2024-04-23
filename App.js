@@ -26,6 +26,14 @@ import OvalComponent from "./src/Shapes/Elipses/OvalComponent";
 import { CoonsPatchComponent } from "./src/Shapes/CoonsPatch/CoonsPatchComponet";
 import { MakeImageComponent } from "./src/Images/MakeImageComponent";
 import { AnimatedImages } from "./src/Images/AnimatedImages";
+import { BlurImage } from "./src/ImageFilters/BlurImage";
+import { BlurImageFilter } from "./src/ImageFilters/BlurImageFilter";
+import { BoxShadow_Neumophism } from "./src/ImageFilters/BoxShadow_Neumophism";
+import { DisplacementMapComponent } from "./src/ImageFilters/DisplacementMap";
+import { BackDropFiltersComponent } from "./src/BackDrop/BackDropFIlters";
+import { BlurMaskComponent } from "./src/MaskFilters/BlurMaskComponent";
+import { LerpColorFilter } from "./src/ColorFilter/LerpColorComponent";
+import { AlphaMaskComponent } from "./src/MaskFilters/AlphaMaskComponet";
 
 export default function App() {
   return (
@@ -53,7 +61,15 @@ export default function App() {
       {/* <CoonsPatchComponent/> */}
       {/* <CircleComponent/> */}
       {/* <MakeImageComponent/> */}
-      <AnimatedImages/>
+      {/* <AnimatedImages/> */}
+      {/* <BlurImage />
+      <BlurImageFilter/> */}
+      {/* <BoxShadow_Neumophism/> */}
+      {/* <DisplacementMapComponent/> */}
+      {/* <BackDropFiltersComponent/> */}
+      {/* <BlurMaskComponent/> */}
+      {/* <LerpColorFilter/> */}
+      <AlphaMaskComponent/>
     </View>
   );
 }
