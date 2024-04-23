@@ -34,6 +34,9 @@ import { BackDropFiltersComponent } from "./src/BackDrop/BackDropFIlters";
 import { BlurMaskComponent } from "./src/MaskFilters/BlurMaskComponent";
 import { LerpColorFilter } from "./src/ColorFilter/LerpColorComponent";
 import { AlphaMaskComponent } from "./src/MaskFilters/AlphaMaskComponet";
+import SvgComponent from "./src/Images/SvgComponent";
+import ScaledSVGComponent from "./src/Images/ScaledSVGComponent";
+import SnapShotView from "./src/Images/SnapShotView";
 
 export default function App() {
   return (
@@ -70,6 +73,9 @@ export default function App() {
       {/* <BlurMaskComponent/> */}
       {/* <LerpColorFilter/> */}
       <AlphaMaskComponent/>
+      {/* <SvgComponent/> */}
+      {/* <ScaledSVGComponent/> */}
+      <SnapShotView/>
     </View>
   );
 }
