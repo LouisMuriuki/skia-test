@@ -29,10 +29,20 @@ const SkiaImage = Skia.Image.MakeImage(
 
 export const MakeImageComponent = () => {
   // async so returns null till image is loaded
-  const SkiaImage2 = useImage("somepath here");
+  // Loads an image from the JS bundle
+  // const image1 = useImage(require("somepath"));
+  // Loads an image from the network
+  const image2 = useImage("https://picsum.photos/200/300");
   return (
     <Canvas style={{ width, height }}>
-      <Image image={SkiaImage} x={20} y={40} width={width} height={height} fit={"cover"} />
+      <Image
+        image={SkiaImage}
+        x={20}
+        y={40}
+        width={width}
+        height={height}
+        fit={"cover"}
+      />
     </Canvas>
   );
 };
