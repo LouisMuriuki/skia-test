@@ -26,6 +26,14 @@ import OvalComponent from "./src/Shapes/Elipses/OvalComponent";
 import { CoonsPatchComponent } from "./src/Shapes/CoonsPatch/CoonsPatchComponet";
 import { MakeImageComponent } from "./src/Images/MakeImageComponent";
 import { AnimatedImages } from "./src/Images/AnimatedImages";
+import { BlurImage } from "./src/ImageFilters/BlurImage";
+import { BlurImageFilter } from "./src/ImageFilters/BlurImageFilter";
+import { BoxShadow_Neumophism } from "./src/ImageFilters/BoxShadow_Neumophism";
+import { DisplacementMapComponent } from "./src/ImageFilters/DisplacementMap";
+import { BackDropFiltersComponent } from "./src/BackDrop/BackDropFIlters";
+import { BlurMaskComponent } from "./src/MaskFilters/BlurMaskComponent";
+import { LerpColorFilter } from "./src/ColorFilter/LerpColorComponent";
+import { AlphaMaskComponent } from "./src/MaskFilters/AlphaMaskComponet";
 import SvgComponent from "./src/Images/SvgComponent";
 import ScaledSVGComponent from "./src/Images/ScaledSVGComponent";
 import SnapShotView from "./src/Images/SnapShotView";
@@ -57,6 +65,14 @@ export default function App() {
       {/* <CircleComponent/> */}
       {/* <MakeImageComponent/> */}
       {/* <AnimatedImages/> */}
+      {/* <BlurImage />
+      <BlurImageFilter/> */}
+      {/* <BoxShadow_Neumophism/> */}
+      {/* <DisplacementMapComponent/> */}
+      {/* <BackDropFiltersComponent/> */}
+      {/* <BlurMaskComponent/> */}
+      {/* <LerpColorFilter/> */}
+      <AlphaMaskComponent/>
       {/* <SvgComponent/> */}
       {/* <ScaledSVGComponent/> */}
       <SnapShotView/>
