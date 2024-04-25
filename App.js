@@ -3,40 +3,44 @@ import { StyleSheet, Text, View } from "react-native";
 import Main from "./src/Main";
 import Snapshot from "./src/Snapshot";
 import { AppComponent } from "./src/ManualInjectionContext";
-import FillsStrokes from "./src/Painting/FillsStrokes";
-import { LinearGradientComponent } from "./src/Painting/LinearGradientComponent";
-import { Inheritance } from "./src/Painting/Inheritance";
-import { SunComponent } from "./src/Painting/SunComponent";
-import { SimpleTransformation } from "./src/Group/SimpleTransformation";
-import { Clipping } from "./src/Group/Clipping";
-import { ClipRoundedRectangle } from "./src/Group/ClipRoundedRectanglr";
-import { StarClip } from "./src/Group/ClipPath";
-import { LayerEffects } from "./src/Group/LayerEffects";
-import { FitBoxComponent } from "./src/Group/FitBoxComponent";
-import { PathComponent } from "./src/Shapes/Path/PathComponent";
-import { PathFillType } from "./src/Shapes/Path/PathFillType";
-import { DrawRectangle } from "./src/Shapes/PolyGon/Rectangle";
-import { RoundedRectangleComponent } from "./src/Shapes/PolyGon/RoundedRectanleComponent";
-import { DiffRectangleComponent } from "./src/Shapes/PolyGon/DiffRectangle";
-import { LineComponent } from "./src/Shapes/PolyGon/Line";
-import { PointsComponent } from "./src/Shapes/PolyGon/PointComponent";
-import { CircleComponent } from "./src/Shapes/Elipses/Circle";
-import { CustomeRoundedRectangle } from "./src/Shapes/PolyGon/CustomRoundedRectangle";
-import OvalComponent from "./src/Shapes/Elipses/OvalComponent";
-import { CoonsPatchComponent } from "./src/Shapes/CoonsPatch/CoonsPatchComponet";
-import { MakeImageComponent } from "./src/Images/MakeImageComponent";
-import { AnimatedImages } from "./src/Images/AnimatedImages";
-import { BlurImage } from "./src/ImageFilters/BlurImage";
-import { BlurImageFilter } from "./src/ImageFilters/BlurImageFilter";
-import { BoxShadow_Neumophism } from "./src/ImageFilters/BoxShadow_Neumophism";
-import { DisplacementMapComponent } from "./src/ImageFilters/DisplacementMap";
-import { BackDropFiltersComponent } from "./src/BackDrop/BackDropFIlters";
-import { BlurMaskComponent } from "./src/MaskFilters/BlurMaskComponent";
-import { LerpColorFilter } from "./src/ColorFilter/LerpColorComponent";
-import { AlphaMaskComponent } from "./src/MaskFilters/AlphaMaskComponet";
-import SvgComponent from "./src/Images/SvgComponent";
-import ScaledSVGComponent from "./src/Images/ScaledSVGComponent";
-import SnapShotView from "./src/Images/SnapShotView";
+import FillsStrokes from "./src/learning/Painting/FillsStrokes";
+import { LinearGradientComponent } from "./src/learning/Painting/LinearGradientComponent";
+import { Inheritance } from "./src/learning/Painting/Inheritance";
+import { SunComponent } from "./src/learning/Painting/SunComponent";
+import { SimpleTransformation } from "./src/learning/Group/SimpleTransformation";
+import { Clipping } from "./src/learning/Group/Clipping";
+import { ClipRoundedRectangle } from "./src/learning/Group/ClipRoundedRectanglr";
+import { StarClip } from "./src/learning/Group/ClipPath";
+import { LayerEffects } from "./src/learning/Group/LayerEffects";
+import { FitBoxComponent } from "./src/learning/Group/FitBoxComponent";
+import { PathComponent } from "./src/learning/Shapes/Path/PathComponent";
+import { PathFillType } from "./src/learning/Shapes/Path/PathFillType";
+import { DrawRectangle } from "./src/learning/Shapes/PolyGon/Rectangle";
+import { RoundedRectangleComponent } from "./src/learning/Shapes/PolyGon/RoundedRectanleComponent";
+import { DiffRectangleComponent } from "./src/learning/Shapes/PolyGon/DiffRectangle";
+import { LineComponent } from "./src/learning/Shapes/PolyGon/Line";
+import { PointsComponent } from "./src/learning/Shapes/PolyGon/PointComponent";
+import { CircleComponent } from "./src/learning/Shapes/Elipses/Circle";
+import { CustomeRoundedRectangle } from "./src/learning/Shapes/PolyGon/CustomRoundedRectangle";
+import OvalComponent from "./src/learning/Shapes/Elipses/OvalComponent";
+import { CoonsPatchComponent } from "./src/learning/Shapes/CoonsPatch/CoonsPatchComponet";
+import { MakeImageComponent } from "./src/learning/Images/MakeImageComponent";
+import { AnimatedImages } from "./src/learning/Images/AnimatedImages";
+import { BlurImage } from "./src/learning/ImageFilters/BlurImage";
+import { BlurImageFilter } from "./src/learning/ImageFilters/BlurImageFilter";
+import { BoxShadow_Neumophism } from "./src/learning/ImageFilters/BoxShadow_Neumophism";
+import { DisplacementMapComponent } from "./src/learning/ImageFilters/DisplacementMap";
+import { BackDropFiltersComponent } from "./src/learning/BackDrop/BackDropFIlters";
+import { BlurMaskComponent } from "./src/learning/MaskFilters/BlurMaskComponent";
+import { LerpColorFilter } from "./src/learning/ColorFilter/LerpColorComponent";
+import { AlphaMaskComponent } from "./src/learning/MaskFilters/AlphaMaskComponet";
+import SvgComponent from "./src/learning/Images/SvgComponent";
+import ScaledSVGComponent from "./src/learning/Images/ScaledSVGComponent";
+import SnapShotView from "./src/learning/Images/SnapShotView";
+import EyeBalls from "./src/trial/EyeBalls";
+import PathComp from "./src/trial/PathComp";
+import NeumophicButtons from "./src/trial/NeumophicButtons";
+import ClipImageToPath from "./src/trial/ClipImageToPath";
 
 export default function App() {
   return (
@@ -72,10 +76,14 @@ export default function App() {
       {/* <BackDropFiltersComponent/> */}
       {/* <BlurMaskComponent/> */}
       {/* <LerpColorFilter/> */}
-      <AlphaMaskComponent/>
+      {/* <AlphaMaskComponent/> */}
       {/* <SvgComponent/> */}
       {/* <ScaledSVGComponent/> */}
-      <SnapShotView/>
+      {/* <SnapShotView/> */}
+      {/* <EyeBalls/> */}
+      {/* <PathComp/> */}
+      {/* <NeumophicButtons/> */}
+      <ClipImageToPath />
     </View>
   );
 }
