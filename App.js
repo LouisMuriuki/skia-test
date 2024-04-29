@@ -41,49 +41,69 @@ import EyeBalls from "./src/trial/EyeBalls";
 import PathComp from "./src/trial/PathComp";
 import NeumophicButtons from "./src/trial/NeumophicButtons";
 import ClipImageToPath from "./src/trial/ClipImageToPath";
+import { CircleAnimation } from "./src/learning/Animations/CircleAnimation";
+import { ColorsAnimation } from "./src/learning/Animations/ColorsAnimation";
+import { GestureAnimation } from "./src/learning/Animations/GestureAnimation";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { GestureTracking } from "./src/learning/Animations/GestureTracking";
+import GestureCircleTracking from "./src/trial/Animations/GestureCircleTracking";
+import { UsePathInterpolationDemo } from "./src/learning/Hooks/UsePathInterpolationDemo";
+import UseClock from "./src/learning/Hooks/UseClock";
+import CanvasSize from "./src/learning/Animations/CanvasSize";
 
 export default function App() {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      {/* <AppComponent /> */}
-      {/* <FillsStrokes /> */}
-      {/* <LinearGradientComponent/> */}
-      {/* <Inheritance/> */}
-      {/* <SunComponent/> */}
-      {/* <SimpleTransformation /> */}
-      {/* <Clipping/> */}
-      {/* <ClipRoundedRectangle/> */}
-      {/* <StarClip/> */}
-      {/* <LayerEffects/> */}
-      {/* <FitBoxComponent/> */}
-      {/* <PathComponent/> */}
-      {/* <PathFillType/> */}
-      {/* <DrawRectangle/> */}
-      {/* <RoundedRectangleComponent/> */}
-      {/* <CustomeRoundedRectangle /> */}
-      {/* <DiffRectangleComponent/> */}
-      {/* <LineComponent/> */}
-      {/* <PointsComponent/> */}
-      {/* <OvalComponent/> */}
-      {/* <CoonsPatchComponent/> */}
-      {/* <CircleComponent/> */}
-      {/* <MakeImageComponent/> */}
-      {/* <AnimatedImages/> */}
-      {/* <BlurImage />
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        {/* <AppComponent /> */}
+        {/* <FillsStrokes /> */}
+        {/* <LinearGradientComponent/> */}
+        {/* <Inheritance/> */}
+        {/* <SunComponent/> */}
+        {/* <SimpleTransformation /> */}
+        {/* <Clipping/> */}
+        {/* <ClipRoundedRectangle/> */}
+        {/* <StarClip/> */}
+        {/* <LayerEffects/> */}
+        {/* <FitBoxComponent/> */}
+        {/* <PathComponent/> */}
+        {/* <PathFillType/> */}
+        {/* <DrawRectangle/> */}
+        {/* <RoundedRectangleComponent/> */}
+        {/* <CustomeRoundedRectangle /> */}
+        {/* <DiffRectangleComponent/> */}
+        {/* <LineComponent/> */}
+        {/* <PointsComponent/> */}
+        {/* <OvalComponent/> */}
+        {/* <CoonsPatchComponent/> */}
+        {/* <CircleComponent/> */}
+        {/* <MakeImageComponent/> */}
+        {/* <AnimatedImages/> */}
+        {/* <BlurImage />
       <BlurImageFilter/> */}
-      {/* <BoxShadow_Neumophism/> */}
-      {/* <DisplacementMapComponent/> */}
-      {/* <BackDropFiltersComponent/> */}
-      {/* <BlurMaskComponent/> */}
-      {/* <LerpColorFilter/> */}
-      {/* <AlphaMaskComponent/> */}
-      {/* <SvgComponent/> */}
-      {/* <ScaledSVGComponent/> */}
-      {/* <SnapShotView/> */}
-      {/* <EyeBalls/> */}
-      {/* <PathComp/> */}
-      {/* <NeumophicButtons/> */}
-      <ClipImageToPath />
+        {/* <BoxShadow_Neumophism/> */}
+        {/* <DisplacementMapComponent/> */}
+        {/* <BackDropFiltersComponent/> */}
+        {/* <BlurMaskComponent/> */}
+        {/* <LerpColorFilter/> */}
+        {/* <AlphaMaskComponent/> */}
+        {/* <SvgComponent/> */}
+        {/* <ScaledSVGComponent/> */}
+        {/* <SnapShotView/> */}
+        {/* <EyeBalls/> */}
+        {/* <PathComp/> */}
+        {/* <NeumophicButtons/> */}
+        {/* <CircleAnimation/> */}
+        {/* <ColorsAnimation /> */}
+        {/* <ClipImageToPath /> */}
+        {/* <GestureAnimation /> */}
+        {/* <GestureTracking/> */}
+        {/* <GestureCircleTracking/> */}
+        {/* <UsePathInterpolationDemo/> */}
+        {/* <UseClock/> */}
+        {/* <CanvasSize/> */}
+        <PathComponent/>
+      </GestureHandlerRootView>
     </View>
   );
 }
